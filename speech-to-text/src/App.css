@@ -1,0 +1,30 @@
+.container, .showCircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid black;
+}
+
+.container {
+  flex: 1;
+  height: 90vh;
+  width: 90vw;
+  border-width: 3px;
+  margin-top: 5vh
+}
+
+.showCircle {
+  flex-direction: column;
+  position: absolute;
+  height: 20vmin;
+  width: 20vmin;
+  border-width: 1px;
+  border-radius: 100%;
+  font-size: 15vmin;
+}
+
+.textToSay {
+  align-self: flex-end;
+  font-size: 5vmin;
+  margin-bottom: 2vh;
+}
